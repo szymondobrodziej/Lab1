@@ -1,0 +1,35 @@
+Microsoft Windows [Version 10.0.19042.804]
+(c) 2020 Microsoft Corporation. Wszelkie prawa zastrzeżone.
+
+C:\Users\wseiuser>cd C:\Users\wseiuser\IdeaProjects\Lab1\src
+
+C:\Users\wseiuser\IdeaProjects\Lab1\src> javac pl\lublin\wsei\java\cwiczenia\Main.java
+
+C:\Users\wseiuser\IdeaProjects\Lab1\src> java pl.lublin.wsei.java.cwiczenia.Main
+Hello Java world
+
+
+C:\Users\wseiuser\IdeaProjects\Lab1\src>dir
+ Volume in drive C has no label.
+ Volume Serial Number is F25E-219F
+
+ Directory of C:\Users\wseiuser\IdeaProjects\Lab1\src
+
+01.03.2021  12:49    <DIR>          .
+01.03.2021  12:49    <DIR>          ..
+01.03.2021  12:49    <DIR>          pl
+               0 File(s)              0 bytes
+               3 Dir(s)  40 637 083 648 bytes free
+
+C:\Users\wseiuser\IdeaProjects\Lab1\src>ren
+The syntax of the command is incorrect.
+
+C:\Users\wseiuser\IdeaProjects\Lab1\src>ren pl\lublin\wsei\java\cwiczenia\Main.java Inny.java
+
+C:\Users\wseiuser\IdeaProjects\Lab1\src>javac pl\lublin\wsei\java\cwiczenia\Inny.java
+pl\lublin\wsei\java\cwiczenia\Inny.java:16: error: reached end of file while parsing
+}dir
+ ^
+1 error
+
+C:\Users\wseiuser\IdeaProjects\Lab1\src>ren pl\lublin\wsei\java\cwiczenia\Inny.java Main.java
